@@ -274,15 +274,20 @@ section .main .button:hover i{
     color: #c72092;
 }
 
+
 .products .box .card .products_text h2{
     font-size: 30px;
     margin-top: 15px;
 }
 
 .products .box .card .products_text p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 8vh;
     color: #91919191;
     line-height: 21px;
     margin: 8px 0;
+    text-overflow: ellipsis;
 }
 
 .products .box .card .products_text h3{
@@ -957,4 +962,9 @@ height: max-content;
     background-image: url('image/ezgif.com-optimize.gif');
     background-size:contain;
     background-repeat: no-repeat;
+}
+
+.container {
+    margin-top: 5vh;
+    width: 100%
 }
